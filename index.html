@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Stopwatch</title>
+  </head>
+  <body class=" has-background-dark">
+    <div id="box" class="columns is-full is-flex is-justify-content-space-center">
+      <div class="column is-flex is-justify-content-space-evenly is-align-items-center is-flex-wrap-wrap">
+        <h3 id="timer" class="has-text-white is-size-3 has-text-centered">Second : 0</h3>
+
+        <div class="container is-fluid is-flex is-justify-content-center is-flex-wrap-wrap is-align-items-center">
+        <button id="start" class="button is-primary is-outlined is-medium">
+          Start time
+        </button>
+
+        <button id="stop" class="button is-danger is-outlined is-medium">
+          Stop time
+        </button>
+
+        <button id="reset" class="button is-info is-outlined is-medium">Reset</button>
+    </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
